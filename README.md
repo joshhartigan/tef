@@ -1,4 +1,5 @@
 ### tef
+![npm](https://img.shields.io/npm/v/npm.svg)
 
 **warning: do not use this as a proper text editor yet. it will overwrite any
 file it saves!!**
