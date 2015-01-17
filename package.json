@@ -1,8 +1,11 @@
 {
   "name": "tef",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Terminal-based text editor",
   "main": "index.js",
+  "bin": {
+    "tef": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
