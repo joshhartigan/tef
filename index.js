@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var fs      = require('fs')
 var blessed = require('blessed'),
     screen  = blessed.screen()
@@ -20,12 +18,7 @@ var box = blessed.box({
   height: '95%',
   tags: true,
   border: { type: 'line' },
-  style: {
-    fg: 'white',
-    border: {
-      fg: 'red', bg: 'red'
-    }
-  }
+  style: { fg: 'red' }
 })
 screen.append(box)
 
